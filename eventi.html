@@ -1,0 +1,189 @@
+<!-- <html>
+
+<head>
+    <script src="js/jquery.js"></script>
+    
+    <script>
+        // $.getJSON("eventi.json", function (json) {
+        //         console.log(json); // this will show the info it in firebug console
+        //     });
+
+            $.getJSON('eventi.json', function (data) {
+                $.each(data.eventi, function (i, f) {
+                    var tblRow = "<tr>" + "<td>" + f.nome + "</td>" +
+                        "<td>" + f.descrizione + "</td>" + "<td>" + f.prezzo + "</td>" + "</tr>"
+                    $(tblRow).appendTo("#eventi tbody");
+                });
+
+            });
+
+
+
+        // $(function () {
+
+
+        //     var people = [];
+
+        //     $.getJSON('eventi.json', function (data) {
+        //         $.each(data.eventi, function (i, f) {
+        //             var tblRow = "<tr>" + "<td>" + f.nome + "</td>" +
+        //                 "<td>" + f.descrizione + "</td>" + "</tr>"
+        //             $(tblRow).appendTo("#eventi tbody");
+        //         });
+
+        //     });
+
+        // });
+    </script>
+</head>
+
+<body>
+        <table id="eventi" border="2">
+            <thead>
+                <th>nome</th>
+                <th>Ldescrizione</th>
+                <th>prezzo</th>
+            </thead>
+            <tbody>
+    
+            </tbody>
+            </table>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=1.0">
+
+    <title>Zairo</title>
+
+    <meta name="author" content="Giovanni Vidotto, Gezim Cikaqi" />
+    <meta name="description" content="Zairo" />
+    <meta name="keywords" content="zairo, ristorante, pizzeria, padova, prato della valle" />
+    <!-- <link rel="shortcut icon" href="img/ico.png" /> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/baguetteBox.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/style-mobile.css" />
+    <!-- <link type="text/css" rel="stylesheet" media="print" href="css/style-print.css" /> -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body data-spy="scroll" data-target="#nav">
+    <header>
+        <nav id="nav" class="navbar navbar-expand-lg fixed-top scroll">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="bar" class="fas fa-bars fa-2x"></span>
+                <span id="times" class="fas fa-times fa-2x"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img/logoHome.png" alt="logo zairo">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#lastoria">La storia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#menu">Menù</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#eventiPage">Eventi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contatti">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="eventiPage">
+        <div class="container">
+            <h2 class="title">Eventi</h2>
+            <div class="row">
+                <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+
+                                <div class="card hovercard">
+                                    <div class="cardheader">
+                                </div>
+                                
+                                <div class="info">
+                                    <div class="title">
+                                        <a href="menusanvalentino.html">Menu San Valentino</a>
+                                    </div>
+                                <p>Venerdi 14/02/2020</p>
+                                        
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="back-to-top">
+        <i class="fas fa-chevron-circle-up fa-3x"></i>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>I nostri partners:</p>
+                    <a href="https://www.facebook.com/pages/Ristorante-Zairo/127080720685062" target="_blank">
+                        <img class="partnersImg" src="img/associaz.jpg" alt="ass">
+                    </a>
+                    <a href="https://www.facebook.com/pages/Ristorante-Zairo/127080720685062" target="_blank">
+                        <img class="partnersImg" src="img/ferrari.png" alt="ferrari">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <p>Per tutte le novità seguici su:</p>
+                    <div class="container-fluid social">
+                        <a href="https://www.facebook.com/pages/Ristorante-Zairo/127080720685062" target="_blank">
+                            <i class="fab fa-facebook-square fa-3x"></i></a>
+    
+                        <a href="https://goo.gl/maps/98ezam1k5vHs6xjKA" target="_blank">
+                            <i class="fas fa-map-marked-alt fa-3x"></i></a>
+                    </div>
+                </div>
+                <p>Filimbeni s.r.l. sede legale via T. A. Edison, 18 - 35135 Padova - numero REA PD 209110 - C.F. e P. IVA
+                    02116810280 -
+                    Capitale sociale int. ver. € 10.000,00</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

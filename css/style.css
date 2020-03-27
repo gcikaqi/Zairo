@@ -1,0 +1,674 @@
+/*----------------------------*\
+PALETTE COLORI:
+giallo: #ffd308
+grigio: #717377; 
+\*----------------------------*/
+
+/*----------------------------*\
+            GENERAL
+\*----------------------------*/
+
+body {
+    font-family: 'Raleway';
+    background: #242527;
+    overflow-x: hidden;
+}
+
+a {
+    color: #ffd308;;
+}
+
+a:hover {
+    color: #ffd308;
+}
+
+p {
+    text-align: justify;
+    color: white;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    color: #ffd308;
+    padding: 0.8em 0;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Kalam', cursive;
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+
+.title:after {
+    content:"";
+  	display:block;
+  	height:0.1em;
+  	width:2em;
+  	background-color: #ffd308;
+    margin: 0 auto;
+}
+
+.subtitle {
+    padding: 1.5em 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*----------------------------*\
+            NAVBAR
+\*----------------------------*/
+
+#nav {
+    padding: 0.1em 2em;
+}
+
+#nav .navbar-toggler {
+    padding: 0;
+    font-size: 1em;
+}
+
+.logo {
+    height: 3em;
+    padding-left: 1em;
+}
+
+.fa-bars, .fa-times {
+    color: #ffd308;
+}
+
+#times {
+    display: none;
+}
+
+#bar {
+    display: inline-block;
+}
+
+.scroll {
+    background-color: #242527;
+    /* box-shadow: 0px 2px 2px #8080807a; */
+}
+
+.scroll a {
+    color: white;
+}
+
+.scroll a:hover {
+    color: #ffd308
+}
+
+.nav-link.active {
+    color: #ffd308;
+}
+
+.nav-link.active:after {
+    content:"";
+  	display:block;
+  	height:0.1em;
+  	background-color: #ffd308;
+}
+
+.progress {
+    position: fixed;
+}
+
+
+/*----------------------------*\
+              HOME
+\*----------------------------*/
+
+#home h2{
+    color: #ffd308;
+}
+
+#home .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+#home .home-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.overlay {
+    
+    opacity: 0.7;
+    background: #242527;
+}
+
+#presentation {
+    padding: 4% 15% 4% 15%;
+    background: #242527;
+    color: white;
+}
+
+
+/*----------------------------*\
+            LA STORIA
+\*----------------------------*/
+
+#lastoria {
+    padding: 8% 15%;
+    background: white;
+    color:  black;
+}
+
+#lastoria p {
+    color:  black;
+}
+
+.storiaImgContainer {
+    width: 100%;
+    padding-top: 2em; 
+}
+
+
+.storiaImg {
+    
+    max-height: 80%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#carouselCenniStorici {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+#carouselCenniStorici li {
+    background-color: #ffd308;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffd308' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffd308' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/*----------------------------*\
+            MENU
+\*----------------------------*/
+
+#menu {
+    padding: 8% 0%;
+    background: #242527;
+    color: white;
+}
+
+#menu p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#menuPage h1 {
+    padding: 3em 0 0 1em;
+    color: white;
+}
+#menuPage p {
+    padding: 3em 0 0 1em;
+    color: black;
+    text-align: center;
+}
+
+#menuPage {
+    padding: 0% 0% 0% 0;
+    background: white;
+    color: black;
+}
+
+#menuPage .btn {
+    color:#ffd308;
+    background:black;
+}
+
+.bgMenu {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+.bgMenuImg  {
+    background-image: url('../img/menu/sal.jpg');
+    
+}
+.bgMenuProperty{
+    background-position: center;
+    background-size: cover;
+}
+
+.bgAntipastiImg  {
+    background-image: url('../img/menu/anti.jpg');
+}
+.bgPrimiImg  {
+    background-image: url('../img/menu/scoglio.jpg');
+}
+.bgSecondiImg  {
+    background-image: url('../img/menu/tagliata.jpg');
+}
+.bgContorniImg  {
+    background-image: url('../img/menu/contorno.jpg');
+}
+.bgPizzeImg  {
+    background-image: url('../img/menu/pizza.jpg');
+    background-position: center;
+}
+.bgDolciImg  {
+    background-image: url('../img/menu/pazientina.jpeg');
+}
+.accordion {
+    padding: 3em 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-header {
+    padding: 3em 1em;
+}
+
+
+/*----------------------------*\
+            GALLERY
+\*----------------------------*/
+
+#gallery {
+    padding: 8% 0;
+    background: white;
+    color:  black;
+}
+
+.btn-selection {
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.08);
+    box-shadow: 0 3px 5px rgba(0,0,0,.125);
+}
+
+.tz-gallery {
+    padding: 0.5em;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 2em;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+/*----------------------------*\
+            EVENTI  
+\*----------------------------*/
+
+
+#eventi {
+    padding: 8% 0;
+    background: #242527;
+    color: white;
+    min-height: 50vh;
+}
+
+#eventi p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#eventiPage {
+    padding: 8% 0;
+    background: white;
+    min-height: 90vh;
+}
+#eventiPage p {
+    color: black;
+    display: block;
+}
+
+
+/*----------------------------*\
+            Contatti
+\*----------------------------*/
+
+.bg-img2 {
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+.bg-contact{
+    background-image: url('../img/prato.jpg');
+}
+
+#contatti {
+    padding: 5%;
+    background: white;
+    color: black;
+}
+
+#contatti .container {
+    padding: 0;
+}
+
+#contatti a {
+    color: #1A0DAB;
+}
+
+#contatti p {
+    text-align: center;
+    color: black;
+}
+
+#contatti h4{
+    text-align: center;
+    margin-top: 3em;
+}
+
+#contatti .fas {
+    color: #CC2623;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 4px 2px #8080807A;  
+    margin:1em 0; 
+}
+
+#contatti input[type=name],#contatti input[type=email], #contatti textarea[name=message] {
+    display: block;
+    margin: 2em 1em;
+    padding: 0.5em 1em;
+}
+
+#contatti textarea[name=message] {
+    width: 20em;
+    height: 10em;
+}
+
+#contatti p{
+    text-align: left;
+    margin:1em;
+    padding: 0;
+    font-size: 1em;
+}
+
+#contatti .subtitle {
+    text-align: left;
+    margin: 0;
+    padding: 5%
+}
+
+#contatti button {
+    margin: 1em;
+    padding: 0 2em;
+
+}
+
+/*----------------------------*\
+          Back to top
+\*----------------------------*/
+
+#back-to-top {
+  	display: none;
+  	position: fixed;
+  	bottom: 1em;
+  	right: 1em;
+  	z-index: 9998;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+  	cursor: pointer;
+}
+
+#back-to-top:hover {
+    opacity: 0.8;
+}
+
+#back-to-top a {
+    text-decoration: none;
+}
+
+
+/*----------------------------*\
+            Footer
+\*----------------------------*/
+
+#footer {
+    position: relative;
+    padding: 2em 5em 0 5em;
+    background-color: #242527;
+    text-align: center;
+}
+
+#footer p {
+    text-align: center;
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+#footer .fab, .fas {
+    width: auto;
+    margin: 0.5em 0.5em;
+     color: #ffd308;
+    text-shadow: none;
+}
+
+
+
+.partnersImg {
+    width: 5em;
+    margin: 1em;
+}
+
+.social {
+    width: 100%;
+    margin:0 0 1em 0; 
+    text-align: center;
+}
+
+
+
+.imgMobile {
+    width: 100%;
+}
+
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background: url("../img/san-back.jpg");
+    background-size: cover;
+    height: 135px;
+}
+.card.hovercard .cardheader1 {
+    background: url("../img/coronavirus.jpg");
+    background-size: cover;
+    height: 135px;
+}
+
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 3px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+

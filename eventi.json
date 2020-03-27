@@ -1,0 +1,13 @@
+{
+    "eventi": [
+        {
+        "nome": "Natale 2019",
+        "descrizione": "piatti di natale",
+        "primo1" : "spaghetti alla carbonara",
+        "primo2": "pennette a caso",
+        "secondo1": "spaghetti alla carbonara",
+        "secondo2": "pennette a caso",
+        "Prezzo": "20"
+        }
+    ]
+}
